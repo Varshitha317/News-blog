@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <div class="News Magazine">
+                <h2>News Magazine</h2>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#authors">Authors</a></li>
+                    <li><a href="#news">News</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <p>Welcome to our website. We are dedicated to bringing you the latest updates on various topics including sustainable living, eco-friendly products, and more.</p>
+    </section>
+
+    <!-- Services Section -->
+<section id="services" class="services-section">
+    <h2>Our Services</h2>
+    <div class="services-list">
+        <div class="service-item">
+            <img src="content.jpeg" alt="Content Creation">
+            <a href="https://www.udemy.com/course/complete-content-creation-content-marketing-guide/?utm_source=bing&utm_medium=udemyads&utm_campaign=BG-Search_DSA_Beta_Prof_la.EN_cc.India&campaigntype=Search&portfolio=Bing&language=EN&product=Course&test=&audience=DSA&topic=&priority=Beta&utm_content=deal4584&utm_term=_._ag_1328212434750654_._ad__._kw_Marketing+en_._de_c_._dm__._pl__._ti_dat-2334812942213648%3Aloc-90_._li_158257_._pd__._&matchtype=b&msclkid=4b5b1e55fb721298e7e97897dcf06f44&couponCode=IND21PM">Content Creation</a>
+        </div>
+        <div class="service-item">
+            <img src="product.jpeg" alt="Product Reviews">
+            <a href="https://www.consumerreports.org/?msockid=06996920eedc6df633d37a91efa66ce2">Product Reviews</a>
+        </div>
+        <div class="service-item">
+            <img src="marketing.jpeg" alt="Marketing Consultation">
+            <a href="https://www.coursera.org/articles/marketing-consultant?msockid=06996920eedc6df633d37a91efa66ce2">Marketing Consultation</a>
+        </div>
+        <div class="service-item">
+            <img src="seo.jpeg" alt="SEO Optimization">
+            <a href="https://ads.google.com/intl/en_in/home/campaigns/search-ads/?subid=in-en-adon-awa-sch-c-bss!o3~e116d935c066167176febff7e7b6c156~p71078859551~&&msclkid=e116d935c066167176febff7e7b6c156&gclid=e116d935c066167176febff7e7b6c156&gclsrc=3p.ds">SEO Optimization</a>
+        </div>
+    </div>
+</section>
+
+    <!-- Authors Section -->
+    <section id="authors" class="authors-section">
+        <h2>Meet Our Authors</h2>
+        <ul class="authors-list">
+            <li><a href="https://shadcn-portfoliox.vercel.app/">John Doe - Sustainable Living</a></li>
+            <li><a href="https://www.goodreads.com/series/383563-jane-smith">Jane Smith - Eco-friendly Products</a></li>
+            <li><a href="https://www.herbalife.com/en-in/about-herbalife/our-leadership/michael-o-johnson">Michael Johnson - Health & Wellness</a></li>
+            <li><a href="https://www.bing.com/search?q=Emily%20Brown%20-%20Organic%20Lifestyle&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=emily%20brown%20-%20organic%20lifestyle&sc=10-31&sk=&cvid=CCE7FB07F9614FC3AF4AD3447EB3A549&ghsh=0&ghacc=0&ghpl=">Emily Brown - Organic Lifestyle</a></li>
+        </ul>
+    </section>
+
+    <!-- News Section -->
+    <div id="news" class="news-container">
+        <h1>News</h1>
+        <p class="subtitle">Some Wild thoughts 🌙, sustainability articles 🌱 and some natural deodorant, of course.</p>
+
+        <div class="news-grid">
+            <div class="news-card">
+                <img src="camomile.jpeg" alt="News Image 1">
+                <h2>New Camomile Tea & French Lavender Scent</h2>
+                <p>Have a soothing start to 2023 with our new Camomile Tea & French Lavender deodorant scent!</p>
+                <span class="category">NEWS</span>
+            </div>
+
+            <div class="news-card">
+                <img src="25.jpeg" alt="News Image 2">
+                <h2>Get 25% off and help plant 100,000 trees this Black Friday</h2>
+                <p>This Black Friday, we are offering a massive 25% off sitewide from 20th November to 30th November and aiming to plant 100,000 trees with your help.</p>
+                <span class="category">NEWS</span>
+            </div>
+
+            <div class="news-card">
+                <img src="eco.jpeg" alt="News Image 3">
+                <h2>Eco Movements Throughout the Decades</h2>
+                <p>In celebration of our Retro Swirl case, here's a highlight of a few influential environmental movements throughout the decades.</p>
+                <span class="category">NEWS</span>
+            </div>
+
+            <div class="news-card">
+                <img src="child.jpeg" alt="News Image 4">
+                <h2>Should my child be wearing deodorant?</h2>
+                <p>Read on for details on kids and deodorant!</p>
+                <span class="category">NEWS</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-icons">
+                <ul>
+                    <li><a href="https://facebook.com/" target="_blank"><img src="facebook.jpeg" alt="facebook"></li>
+                    <li><a href="https://twitter.com/" target="_blank"><img src="twitter.jpeg" alt="Twitter"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="instagram.jpeg" alt="Instagram"></a></li>
+                </ul>
+            </div>
+            <div class="footer-text">
+                <span>Created By <a href="#">Varshitha</a> | &#169; All Rights Reserved</span>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
